@@ -7,10 +7,11 @@
          Deleted and restarted the pod, and confirmed that the data persisted.
    c) Testing in the Cluster:
          Used the following commands to test MySQL within the cluster:
+   
               kubectl exec -it mysql-0 -- /bin/bash
               mysql -h mysql-0.mysql -u root -p
 
-2) Spring Boot Application for DB Testing
+3) Spring Boot Application for DB Testing
 
         Created a Spring Boot application to test the MySQL database using an API.
         Built a Docker image for the Spring Boot application.
